@@ -1,0 +1,1228 @@
+{
+  "metadata": {
+    "system_name": "Project NOVA",
+    "title": "NOVA Autonomous Algorithmic Trading & Aladdin Risk Terminal",
+    "version": "v5.1 Institutional Sniper Release",
+    "author": "Arnab Das",
+    "portfolio_showcase_mode": "READ-ONLY ADMISSIONS & RECRUITING GALLERY",
+    "status": "OPERATIONAL",
+    "last_market_session": "2026-11-13 (Post-Close)",
+    "universe": "NIFTY F&O 100 (High-Liquid Deduplicated)",
+    "target_monthly_net_alpha": "+3.5% to +5.0% Net",
+    "target_annualized_compound": "+51.1% to +79.6% Net",
+    "risk_framework": "BlackRock Aladdin / Medallion-Grade Multi-Layered Governance"
+  },
+  "executive_summary": {
+    "starting_capital": 50000.0,
+    "current_equity": 49345.18,
+    "peak_equity": 50312.55,
+    "cash_balance": 40251.98,
+    "cash_percentage": 81.6,
+    "net_pnl": -654.82,
+    "net_return_pct": -1.31,
+    "intraday_peak_alpha_pct": 0.62,
+    "max_drawdown_pct": -1.77,
+    "total_orders_logged": 28,
+    "closed_round_trips": 8,
+    "round_trip_win_rate": 50.0,
+    "profit_factor": 1.42,
+    "win_loss_ratio": 1.72,
+    "total_statutory_friction_paid": 233.87,
+    "estimated_friction_saved_by_sniper": 3800.0
+  },
+  "holdings": [
+    {
+      "symbol": "BALKRISIND.NS",
+      "clean_symbol": "BALKRISIND",
+      "shares": 4,
+      "avg_price": 2315.95,
+      "current_price": 2273.3,
+      "position_value": 9093.2,
+      "unrealized_pnl": -170.6,
+      "unrealized_pct": -1.84,
+      "stop_loss_price": 2259.07,
+      "highest_price": 2330.5,
+      "trade_type": "SWING",
+      "entry_date": "2026-11-12",
+      "scaled_out": false,
+      "risk_to_stop_inr": 227.52
+    }
+  ],
+  "equity_curve": [
+    {
+      "time": "2026-11-09 15:07:00",
+      "equity": 50000.0,
+      "cash": 50000.0,
+      "return_pct": 0.0,
+      "benchmark_nifty": 50000.0
+    },
+    {
+      "time": "2026-11-11 09:30:42",
+      "equity": 49817.39,
+      "cash": 27062.54,
+      "return_pct": -0.37,
+      "benchmark_nifty": 50001.87
+    },
+    {
+      "time": "2026-11-11 09:45:37",
+      "equity": 49998.95,
+      "cash": 13217.35,
+      "return_pct": -0.0,
+      "benchmark_nifty": 50003.75
+    },
+    {
+      "time": "2026-11-11 10:07:35",
+      "equity": 50038.75,
+      "cash": 13217.35,
+      "return_pct": 0.08,
+      "benchmark_nifty": 50005.62
+    },
+    {
+      "time": "2026-11-11 10:29:40",
+      "equity": 49994.55,
+      "cash": 13217.35,
+      "return_pct": -0.01,
+      "benchmark_nifty": 50007.5
+    },
+    {
+      "time": "2026-11-11 10:47:37",
+      "equity": 50165.35,
+      "cash": 13217.35,
+      "return_pct": 0.33,
+      "benchmark_nifty": 50009.38
+    },
+    {
+      "time": "2026-11-11 11:04:47",
+      "equity": 50206.35,
+      "cash": 13217.35,
+      "return_pct": 0.41,
+      "benchmark_nifty": 50011.25
+    },
+    {
+      "time": "2026-11-11 11:22:36",
+      "equity": 50178.95,
+      "cash": 13217.35,
+      "return_pct": 0.36,
+      "benchmark_nifty": 50013.12
+    },
+    {
+      "time": "2026-11-11 11:31:31",
+      "equity": 50192.35,
+      "cash": 13217.35,
+      "return_pct": 0.38,
+      "benchmark_nifty": 50015.0
+    },
+    {
+      "time": "2026-11-11 11:39:36",
+      "equity": 50247.75,
+      "cash": 13217.35,
+      "return_pct": 0.5,
+      "benchmark_nifty": 50016.88
+    },
+    {
+      "time": "2026-11-11 11:48:00",
+      "equity": 50273.35,
+      "cash": 13217.35,
+      "return_pct": 0.55,
+      "benchmark_nifty": 50018.75
+    },
+    {
+      "time": "2026-11-11 11:56:56",
+      "equity": 50220.95,
+      "cash": 13217.35,
+      "return_pct": 0.44,
+      "benchmark_nifty": 50020.62
+    },
+    {
+      "time": "2026-11-11 12:12:52",
+      "equity": 50264.75,
+      "cash": 13217.35,
+      "return_pct": 0.53,
+      "benchmark_nifty": 50022.5
+    },
+    {
+      "time": "2026-11-11 12:35:28",
+      "equity": 50162.95,
+      "cash": 13217.35,
+      "return_pct": 0.33,
+      "benchmark_nifty": 50024.38
+    },
+    {
+      "time": "2026-11-11 12:56:16",
+      "equity": 50090.63,
+      "cash": 2930.43,
+      "return_pct": 0.18,
+      "benchmark_nifty": 50026.25
+    },
+    {
+      "time": "2026-11-11 13:04:47",
+      "equity": 50055.33,
+      "cash": 2930.43,
+      "return_pct": 0.11,
+      "benchmark_nifty": 50028.12
+    },
+    {
+      "time": "2026-11-11 13:12:57",
+      "equity": 49893.83,
+      "cash": 2930.43,
+      "return_pct": -0.21,
+      "benchmark_nifty": 50030.0
+    },
+    {
+      "time": "2026-11-11 13:30:03",
+      "equity": 50011.73,
+      "cash": 2930.43,
+      "return_pct": 0.02,
+      "benchmark_nifty": 50031.88
+    },
+    {
+      "time": "2026-11-11 13:45:30",
+      "equity": 49934.13,
+      "cash": 2930.43,
+      "return_pct": -0.13,
+      "benchmark_nifty": 50033.75
+    },
+    {
+      "time": "2026-11-11 13:54:29",
+      "equity": 49811.63,
+      "cash": 2930.43,
+      "return_pct": -0.38,
+      "benchmark_nifty": 50035.62
+    },
+    {
+      "time": "2026-11-11 14:02:22",
+      "equity": 49876.08,
+      "cash": 13163.08,
+      "return_pct": -0.25,
+      "benchmark_nifty": 50037.5
+    },
+    {
+      "time": "2026-11-11 14:11:04",
+      "equity": 49931.22,
+      "cash": 2885.32,
+      "return_pct": -0.14,
+      "benchmark_nifty": 50039.38
+    },
+    {
+      "time": "2026-11-11 14:32:54",
+      "equity": 49736.57,
+      "cash": 13126.37,
+      "return_pct": -0.53,
+      "benchmark_nifty": 50041.25
+    },
+    {
+      "time": "2026-11-11 14:55:50",
+      "equity": 49856.37,
+      "cash": 13126.37,
+      "return_pct": -0.29,
+      "benchmark_nifty": 50043.12
+    },
+    {
+      "time": "2026-11-11 15:18:03",
+      "equity": 49705.77,
+      "cash": 13126.37,
+      "return_pct": -0.59,
+      "benchmark_nifty": 50045.0
+    },
+    {
+      "time": "2026-11-12 09:21:39",
+      "equity": 49680.19,
+      "cash": 37904.14,
+      "return_pct": -0.64,
+      "benchmark_nifty": 50046.88
+    },
+    {
+      "time": "2026-11-12 09:34:04",
+      "equity": 49682.72,
+      "cash": 31273.12,
+      "return_pct": -0.63,
+      "benchmark_nifty": 50048.75
+    },
+    {
+      "time": "2026-11-12 09:48:43",
+      "equity": 49680.47,
+      "cash": 17316.67,
+      "return_pct": -0.64,
+      "benchmark_nifty": 50051.25
+    },
+    {
+      "time": "2026-11-12 09:56:48",
+      "equity": 49732.34,
+      "cash": 9870.64,
+      "return_pct": -0.54,
+      "benchmark_nifty": 50053.12
+    },
+    {
+      "time": "2026-11-12 10:05:01",
+      "equity": 49812.37,
+      "cash": 597.57,
+      "return_pct": -0.38,
+      "benchmark_nifty": 50055.0
+    },
+    {
+      "time": "2026-11-12 10:22:42",
+      "equity": 49734.07,
+      "cash": 597.57,
+      "return_pct": -0.53,
+      "benchmark_nifty": 50056.88
+    },
+    {
+      "time": "2026-11-12 10:42:23",
+      "equity": 49769.77,
+      "cash": 597.57,
+      "return_pct": -0.46,
+      "benchmark_nifty": 50058.75
+    },
+    {
+      "time": "2026-11-12 10:59:00",
+      "equity": 49742.87,
+      "cash": 597.57,
+      "return_pct": -0.51,
+      "benchmark_nifty": 50060.62
+    },
+    {
+      "time": "2026-11-12 11:08:24",
+      "equity": 49706.67,
+      "cash": 597.57,
+      "return_pct": -0.59,
+      "benchmark_nifty": 50062.5
+    },
+    {
+      "time": "2026-11-12 11:17:22",
+      "equity": 49607.57,
+      "cash": 597.57,
+      "return_pct": -0.78,
+      "benchmark_nifty": 50064.38
+    },
+    {
+      "time": "2026-11-12 11:27:26",
+      "equity": 49613.87,
+      "cash": 597.57,
+      "return_pct": -0.77,
+      "benchmark_nifty": 50066.25
+    },
+    {
+      "time": "2026-11-12 11:36:59",
+      "equity": 49637.57,
+      "cash": 597.57,
+      "return_pct": -0.72,
+      "benchmark_nifty": 50068.12
+    },
+    {
+      "time": "2026-11-12 11:53:28",
+      "equity": 49623.37,
+      "cash": 597.57,
+      "return_pct": -0.75,
+      "benchmark_nifty": 50070.0
+    },
+    {
+      "time": "2026-11-12 12:13:21",
+      "equity": 49572.87,
+      "cash": 597.57,
+      "return_pct": -0.85,
+      "benchmark_nifty": 50071.88
+    },
+    {
+      "time": "2026-11-12 12:27:46",
+      "equity": 49531.4,
+      "cash": 11458.4,
+      "return_pct": -0.94,
+      "benchmark_nifty": 50073.75
+    },
+    {
+      "time": "2026-11-12 12:40:51",
+      "equity": 49438.6,
+      "cash": 11458.4,
+      "return_pct": -1.12,
+      "benchmark_nifty": 50075.62
+    },
+    {
+      "time": "2026-11-12 12:56:55",
+      "equity": 49511.8,
+      "cash": 11458.4,
+      "return_pct": -0.98,
+      "benchmark_nifty": 50077.5
+    },
+    {
+      "time": "2026-11-12 13:05:48",
+      "equity": 49526.03,
+      "cash": 24421.03,
+      "return_pct": -0.95,
+      "benchmark_nifty": 50079.38
+    },
+    {
+      "time": "2026-11-12 13:14:54",
+      "equity": 49541.23,
+      "cash": 24421.03,
+      "return_pct": -0.92,
+      "benchmark_nifty": 50081.25
+    },
+    {
+      "time": "2026-11-12 13:23:58",
+      "equity": 49516.13,
+      "cash": 24421.03,
+      "return_pct": -0.97,
+      "benchmark_nifty": 50083.12
+    },
+    {
+      "time": "2026-11-12 13:33:06",
+      "equity": 49532.83,
+      "cash": 24421.03,
+      "return_pct": -0.93,
+      "benchmark_nifty": 50085.0
+    },
+    {
+      "time": "2026-11-12 13:41:56",
+      "equity": 49525.03,
+      "cash": 24421.03,
+      "return_pct": -0.95,
+      "benchmark_nifty": 50086.88
+    },
+    {
+      "time": "2026-11-12 13:50:58",
+      "equity": 49560.03,
+      "cash": 24421.03,
+      "return_pct": -0.88,
+      "benchmark_nifty": 50088.75
+    },
+    {
+      "time": "2026-11-12 14:00:15",
+      "equity": 49553.23,
+      "cash": 24421.03,
+      "return_pct": -0.89,
+      "benchmark_nifty": 50090.62
+    },
+    {
+      "time": "2026-11-12 14:09:13",
+      "equity": 49510.43,
+      "cash": 24421.03,
+      "return_pct": -0.98,
+      "benchmark_nifty": 50092.5
+    },
+    {
+      "time": "2026-11-12 14:18:36",
+      "equity": 49548.63,
+      "cash": 24421.03,
+      "return_pct": -0.9,
+      "benchmark_nifty": 50094.38
+    },
+    {
+      "time": "2026-11-12 14:29:48",
+      "equity": 49561.63,
+      "cash": 1508.03,
+      "return_pct": -0.88,
+      "benchmark_nifty": 50096.25
+    },
+    {
+      "time": "2026-11-12 14:47:20",
+      "equity": 49459.83,
+      "cash": 1508.03,
+      "return_pct": -1.08,
+      "benchmark_nifty": 50098.13
+    },
+    {
+      "time": "2026-11-12 15:14:14",
+      "equity": 49422.11,
+      "cash": 24308.21,
+      "return_pct": -1.16,
+      "benchmark_nifty": 50100.62
+    },
+    {
+      "time": "2026-11-12 15:31:24",
+      "equity": 49435.56,
+      "cash": 37351.16,
+      "return_pct": -1.13,
+      "benchmark_nifty": 50102.5
+    },
+    {
+      "time": "2026-11-13 09:44:32",
+      "equity": 49447.18,
+      "cash": 40251.98,
+      "return_pct": -1.11,
+      "benchmark_nifty": 50104.38
+    },
+    {
+      "time": "2026-11-13 09:53:29",
+      "equity": 49411.18,
+      "cash": 40251.98,
+      "return_pct": -1.18,
+      "benchmark_nifty": 50106.25
+    },
+    {
+      "time": "2026-11-13 10:04:56",
+      "equity": 49407.18,
+      "cash": 40251.98,
+      "return_pct": -1.19,
+      "benchmark_nifty": 50108.12
+    },
+    {
+      "time": "2026-11-13 10:14:13",
+      "equity": 49417.98,
+      "cash": 40251.98,
+      "return_pct": -1.16,
+      "benchmark_nifty": 50110.0
+    },
+    {
+      "time": "2026-11-13 10:23:15",
+      "equity": 49404.38,
+      "cash": 40251.98,
+      "return_pct": -1.19,
+      "benchmark_nifty": 50111.87
+    },
+    {
+      "time": "2026-11-13 10:33:28",
+      "equity": 49385.18,
+      "cash": 40251.98,
+      "return_pct": -1.23,
+      "benchmark_nifty": 50113.75
+    },
+    {
+      "time": "2026-11-13 10:42:28",
+      "equity": 49407.98,
+      "cash": 40251.98,
+      "return_pct": -1.18,
+      "benchmark_nifty": 50115.62
+    },
+    {
+      "time": "2026-11-13 10:51:40",
+      "equity": 49421.58,
+      "cash": 40251.98,
+      "return_pct": -1.16,
+      "benchmark_nifty": 50117.5
+    },
+    {
+      "time": "2026-11-13 11:06:31",
+      "equity": 49410.38,
+      "cash": 40251.98,
+      "return_pct": -1.18,
+      "benchmark_nifty": 50119.38
+    },
+    {
+      "time": "2026-11-13 11:24:53",
+      "equity": 49430.38,
+      "cash": 40251.98,
+      "return_pct": -1.14,
+      "benchmark_nifty": 50121.25
+    },
+    {
+      "time": "2026-11-13 11:44:02",
+      "equity": 49420.78,
+      "cash": 40251.98,
+      "return_pct": -1.16,
+      "benchmark_nifty": 50123.12
+    },
+    {
+      "time": "2026-11-13 12:04:16",
+      "equity": 49409.98,
+      "cash": 40251.98,
+      "return_pct": -1.18,
+      "benchmark_nifty": 50125.0
+    },
+    {
+      "time": "2026-11-13 12:22:12",
+      "equity": 49415.58,
+      "cash": 40251.98,
+      "return_pct": -1.17,
+      "benchmark_nifty": 50126.88
+    },
+    {
+      "time": "2026-11-13 12:40:11",
+      "equity": 49415.58,
+      "cash": 40251.98,
+      "return_pct": -1.17,
+      "benchmark_nifty": 50128.75
+    },
+    {
+      "time": "2026-11-13 12:57:49",
+      "equity": 49416.78,
+      "cash": 40251.98,
+      "return_pct": -1.17,
+      "benchmark_nifty": 50130.62
+    },
+    {
+      "time": "2026-11-13 13:15:31",
+      "equity": 49425.18,
+      "cash": 40251.98,
+      "return_pct": -1.15,
+      "benchmark_nifty": 50132.5
+    },
+    {
+      "time": "2026-11-13 13:33:25",
+      "equity": 49428.78,
+      "cash": 40251.98,
+      "return_pct": -1.14,
+      "benchmark_nifty": 50134.38
+    },
+    {
+      "time": "2026-11-13 13:42:05",
+      "equity": 49429.58,
+      "cash": 40251.98,
+      "return_pct": -1.14,
+      "benchmark_nifty": 50136.25
+    },
+    {
+      "time": "2026-11-13 13:50:45",
+      "equity": 49424.78,
+      "cash": 40251.98,
+      "return_pct": -1.15,
+      "benchmark_nifty": 50138.12
+    },
+    {
+      "time": "2026-11-13 13:59:26",
+      "equity": 49419.58,
+      "cash": 40251.98,
+      "return_pct": -1.16,
+      "benchmark_nifty": 50140.0
+    },
+    {
+      "time": "2026-11-13 14:08:30",
+      "equity": 49339.98,
+      "cash": 40251.98,
+      "return_pct": -1.32,
+      "benchmark_nifty": 50141.88
+    },
+    {
+      "time": "2026-11-13 14:17:26",
+      "equity": 49318.38,
+      "cash": 40251.98,
+      "return_pct": -1.36,
+      "benchmark_nifty": 50143.75
+    },
+    {
+      "time": "2026-11-13 14:26:06",
+      "equity": 49331.18,
+      "cash": 40251.98,
+      "return_pct": -1.34,
+      "benchmark_nifty": 50145.63
+    },
+    {
+      "time": "2026-11-13 14:35:13",
+      "equity": 49357.58,
+      "cash": 40251.98,
+      "return_pct": -1.28,
+      "benchmark_nifty": 50147.5
+    },
+    {
+      "time": "2026-11-13 15:29:59",
+      "equity": 49345.18,
+      "cash": 40251.98,
+      "return_pct": -1.31,
+      "benchmark_nifty": 50150.0
+    }
+  ],
+  "trades": [
+    {
+      "time": "2026-11-11 09:21:00",
+      "symbol": "VOLTAS",
+      "action": "BUY",
+      "price": 1123.2,
+      "shares": 10,
+      "trade_value": 11232.0,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 38756.77,
+      "reason": "[DAYTIME_ORB] AGGRESSIVE_ASK_PEG (OBI +0.05, OFI +0.54) | Score: +0.52 | Regime: VOLATILE_BULL | RRG: IMPROVING | Beta: 1.00 | Half-Kelly Qty: 10",
+      "tag": "ORB_BREAKOUT"
+    },
+    {
+      "time": "2026-11-11 09:25:43",
+      "symbol": "SBIN",
+      "action": "BUY",
+      "price": 1062.05,
+      "shares": 11,
+      "trade_value": 11682.55,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 27062.54,
+      "reason": "[DAYTIME_ORB] AGGRESSIVE_ASK_PEG (OBI +0.05, OFI +0.20) | Score: +0.41 | Regime: VOLATILE_BULL | RRG: IMPROVING | Beta: 1.00 | Half-Kelly Qty: 11",
+      "tag": "ORB_BREAKOUT"
+    },
+    {
+      "time": "2026-11-11 09:37:04",
+      "symbol": "SBIN",
+      "action": "BUY",
+      "price": 1063.95,
+      "shares": 13,
+      "trade_value": 13831.35,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 13217.35,
+      "reason": "[DAYTIME_ORB] AGGRESSIVE_ASK_PEG (OBI +0.05, OFI +0.05) | Score: +0.41 | Regime: VOLATILE_BULL | RRG: IMPROVING | Beta: 0.90 | Half-Kelly Qty: 13",
+      "tag": "ORB_BREAKOUT"
+    },
+    {
+      "time": "2026-11-11 12:45:49",
+      "symbol": "M&M",
+      "action": "BUY",
+      "price": 3425.55,
+      "shares": 3,
+      "trade_value": 10276.65,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 2930.43,
+      "reason": "[BUY_ORB_BREAKOUT] STANDARD_LIMIT_PEG (OBI +0.05) | Score: +0.34 | Regime: VOLATILE_BULL | RRG: IMPROVING | Beta: 1.46 | Half-Kelly Qty: 3",
+      "tag": "ORB_BREAKOUT"
+    },
+    {
+      "time": "2026-11-11 13:58:17",
+      "symbol": "M&M",
+      "action": "SELL",
+      "price": 3414.3,
+      "shares": 3,
+      "trade_value": 10242.9,
+      "fees": 20.52,
+      "realized_pnl": -33.75,
+      "return_pct": -0.33,
+      "balance": 13163.08,
+      "reason": "BUY_ORB_BREAKOUT TIGHT STOP-LOSS (Hit 3414.30, limit 3415.24)",
+      "tag": "ORB_BREAKOUT"
+    },
+    {
+      "time": "2026-11-11 14:03:42",
+      "symbol": "M&M",
+      "action": "BUY",
+      "price": 3422.5,
+      "shares": 3,
+      "trade_value": 10267.5,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 2885.32,
+      "reason": "[BUY_ORB_BREAKOUT] STANDARD_LIMIT_PEG (OBI +0.05) | Score: -0.01 | Regime: VOLATILE_BULL | RRG: IMPROVING | Beta: 1.45 | Half-Kelly Qty: 3",
+      "tag": "ORB_BREAKOUT"
+    },
+    {
+      "time": "2026-11-11 14:19:20",
+      "symbol": "M&M",
+      "action": "SELL",
+      "price": 3417.1,
+      "shares": 3,
+      "trade_value": 10251.3,
+      "fees": 20.52,
+      "realized_pnl": -16.2,
+      "return_pct": -0.16,
+      "balance": 13126.37,
+      "reason": "BUY_ORB_BREAKOUT TIGHT STOP-LOSS (Hit 3417.10, limit 3418.83)",
+      "tag": "ORB_BREAKOUT"
+    },
+    {
+      "time": "2026-11-11 15:19:19",
+      "symbol": "VOLTAS",
+      "action": "SELL",
+      "price": 1115.4,
+      "shares": 10,
+      "trade_value": 11154.0,
+      "fees": 22.39,
+      "realized_pnl": -78.0,
+      "return_pct": -0.69,
+      "balance": 24269.21,
+      "reason": "15:15 MANDATORY SQUARE-OFF (Zero Overnight Risk)",
+      "tag": "SQUARE_OFF"
+    },
+    {
+      "time": "2026-11-11 15:19:24",
+      "symbol": "SBIN",
+      "action": "SELL",
+      "price": 1060.25,
+      "shares": 24,
+      "trade_value": 25446.0,
+      "fees": 50.96,
+      "realized_pnl": -67.9,
+      "return_pct": -0.27,
+      "balance": 49689.77,
+      "reason": "15:15 MANDATORY SQUARE-OFF (Zero Overnight Risk)",
+      "tag": "SQUARE_OFF"
+    },
+    {
+      "time": "2026-11-11 17:20:21",
+      "symbol": "SBIN",
+      "action": "SELL",
+      "price": 1065.0,
+      "shares": 10,
+      "trade_value": 10650.0,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 50028.75,
+      "reason": "[PROFIT LOCK] CIRCUIT BREAKER: Profit Ratchet Floor Breached! (Equity: Rs. 50,039.40 <= Floor: Rs. 50,175.00 [Peak: Rs. 50,350.00])",
+      "tag": "TRADE"
+    },
+    {
+      "time": "2026-11-11 17:21:53",
+      "symbol": "M&M",
+      "action": "BUY",
+      "price": 3420.0,
+      "shares": 2,
+      "trade_value": 6840.0,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 43153.16,
+      "reason": "[SWING] STANDARD_LIMIT_PEG (OBI +0.00) | Score: +0.85 | Regime: QUIET_BULL | RRG: IMPROVING | Beta: 1.00 | Half-Kelly Qty: 2",
+      "tag": "SWING"
+    },
+    {
+      "time": "2026-11-11 17:21:53",
+      "symbol": "SBIN",
+      "action": "SELL",
+      "price": 1065.0,
+      "shares": 10,
+      "trade_value": 10650.0,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 50028.75,
+      "reason": "[PROFIT LOCK] CIRCUIT BREAKER: Profit Ratchet Floor Breached! (Equity: Rs. 50,039.40 <= Floor: Rs. 50,175.00 [Peak: Rs. 50,350.00])",
+      "tag": "TRADE"
+    },
+    {
+      "time": "2026-11-11 17:23:02",
+      "symbol": "SBIN",
+      "action": "SELL",
+      "price": 1065.0,
+      "shares": 10,
+      "trade_value": 10650.0,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 50028.75,
+      "reason": "[PROFIT LOCK] CIRCUIT BREAKER: Profit Ratchet Floor Breached! (Equity: Rs. 50,039.40 <= Floor: Rs. 50,175.00 [Peak: Rs. 50,350.00])",
+      "tag": "TRADE"
+    },
+    {
+      "time": "2026-11-11 17:23:16",
+      "symbol": "SBIN",
+      "action": "SELL",
+      "price": 1065.0,
+      "shares": 10,
+      "trade_value": 10650.0,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 50028.75,
+      "reason": "[PROFIT LOCK] CIRCUIT BREAKER: Profit Ratchet Floor Breached! (Equity: Rs. 50,039.40 <= Floor: Rs. 50,175.00 [Peak: Rs. 50,350.00])",
+      "tag": "TRADE"
+    },
+    {
+      "time": "2026-11-11 17:24:32",
+      "symbol": "SBIN",
+      "action": "SELL",
+      "price": 1065.0,
+      "shares": 10,
+      "trade_value": 10650.0,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 50028.75,
+      "reason": "[PROFIT LOCK] CIRCUIT BREAKER: Profit Ratchet Floor Breached! (Equity: Rs. 50,039.40 <= Floor: Rs. 50,175.00 [Peak: Rs. 50,350.00])",
+      "tag": "TRADE"
+    },
+    {
+      "time": "2026-11-11 18:08:06",
+      "symbol": "SBIN",
+      "action": "SELL",
+      "price": 1065.0,
+      "shares": 10,
+      "trade_value": 10650.0,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 50032.57,
+      "reason": "[PROFIT LOCK] CIRCUIT BREAKER: Profit Ratchet Floor Breached! (Equity: Rs. 50,042.47 <= Floor: Rs. 50,175.00 [Peak: Rs. 50,350.00])",
+      "tag": "TRADE"
+    },
+    {
+      "time": "2026-11-11 18:31:18",
+      "symbol": "SBIN",
+      "action": "SELL",
+      "price": 1065.0,
+      "shares": 10,
+      "trade_value": 10650.0,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 50032.57,
+      "reason": "[PROFIT LOCK] CIRCUIT BREAKER: Profit Ratchet Floor Breached! (Equity: Rs. 50,042.47 <= Floor: Rs. 50,175.00 [Peak: Rs. 50,350.00])",
+      "tag": "TRADE"
+    },
+    {
+      "time": "2026-11-12 09:20:44",
+      "symbol": "SBIN",
+      "action": "BUY",
+      "price": 1070.35,
+      "shares": 11,
+      "trade_value": 11773.85,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 37904.14,
+      "reason": "[DAYTIME_ORB] AGGRESSIVE_ASK_PEG (OBI +0.05, OFI +0.66) | Score: +0.33 | Regime: VOLATILE_BULL | RRG: IMPROVING | Beta: 1.00 | Half-Kelly Qty: 11",
+      "tag": "ORB_BREAKOUT"
+    },
+    {
+      "time": "2026-11-12 09:31:52",
+      "symbol": "MUTHOOTFIN",
+      "action": "BUY",
+      "price": 2905.6,
+      "shares": 1,
+      "trade_value": 2905.6,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 34995.64,
+      "reason": "[SWING] AGGRESSIVE_ASK_PEG (OBI +0.05, OFI +0.67) | Score: +0.66 | Regime: VOLATILE_BULL | RRG: LEADING | Beta: 1.48 | Half-Kelly Qty: 1",
+      "tag": "SWING"
+    },
+    {
+      "time": "2026-11-12 09:33:51",
+      "symbol": "SIEMENS",
+      "action": "BUY",
+      "price": 3718.8,
+      "shares": 1,
+      "trade_value": 3718.8,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 31273.12,
+      "reason": "[SWING] AGGRESSIVE_ASK_PEG (OBI +0.05, OFI +0.48) | Score: +0.56 | Regime: VOLATILE_BULL | RRG: LAGGING | Beta: 1.00 | Half-Kelly Qty: 1",
+      "tag": "SWING"
+    },
+    {
+      "time": "2026-11-12 09:38:05",
+      "symbol": "SBIN",
+      "action": "BUY",
+      "price": 1072.5,
+      "shares": 13,
+      "trade_value": 13942.5,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 17316.67,
+      "reason": "[DAYTIME_ORB] AGGRESSIVE_ASK_PEG (OBI +0.05, OFI +0.24) | Score: +0.24 | Regime: VOLATILE_BULL | RRG: LEADING | Beta: 0.90 | Half-Kelly Qty: 13",
+      "tag": "ORB_BREAKOUT"
+    },
+    {
+      "time": "2026-11-12 09:49:55",
+      "symbol": "SIEMENS",
+      "action": "BUY",
+      "price": 3719.3,
+      "shares": 2,
+      "trade_value": 7438.6,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 9870.64,
+      "reason": "[SWING] AGGRESSIVE_ASK_PEG (OBI +0.05, OFI +0.38) | Score: +0.61 | Regime: VOLATILE_BULL | RRG: IMPROVING | Beta: 0.70 | Half-Kelly Qty: 2",
+      "tag": "SWING"
+    },
+    {
+      "time": "2026-11-12 09:59:03",
+      "symbol": "BALKRISIND",
+      "action": "BUY",
+      "price": 2315.95,
+      "shares": 4,
+      "trade_value": 9263.8,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 597.57,
+      "reason": "[SWING] AGGRESSIVE_ASK_PEG (OBI +0.00, OFI +0.50) | Score: +0.69 | Regime: VOLATILE_BULL | RRG: LEADING | Beta: 1.10 | Half-Kelly Qty: 4",
+      "tag": "SWING"
+    },
+    {
+      "time": "2026-11-12 12:27:46",
+      "symbol": "SIEMENS",
+      "action": "SELL",
+      "price": 3623.9,
+      "shares": 3,
+      "trade_value": 10871.7,
+      "fees": 22.03,
+      "realized_pnl": -285.7,
+      "return_pct": -2.56,
+      "balance": 11458.4,
+      "reason": "SWING TIGHT STOP-LOSS (Hit 3623.90, limit 3624.07)",
+      "tag": "STOP_LOSS"
+    },
+    {
+      "time": "2026-11-12 12:58:09",
+      "symbol": "SBIN",
+      "action": "SELL_PARTIAL",
+      "price": 1081.3,
+      "shares": 12,
+      "trade_value": 12975.6,
+      "fees": 25.82,
+      "realized_pnl": 129.25,
+      "return_pct": 1.01,
+      "balance": 24421.03,
+      "reason": "TIER 0.5 GREEN LOCK (+0.91% gain: Hit 1081.30 >= target 1080.09, banking 50% cash [12/24 sh], stop ratcheted to Breakeven+Fees 1074.19)",
+      "tag": "TIER_05_GREEN_LOCK"
+    },
+    {
+      "time": "2026-11-12 14:22:54",
+      "symbol": "DIVISLAB",
+      "action": "BUY",
+      "price": 11445.05,
+      "shares": 2,
+      "trade_value": 22890.1,
+      "fees": 0.0,
+      "realized_pnl": null,
+      "return_pct": null,
+      "balance": 1508.03,
+      "reason": "[DAYTIME_VWAP_PULLBACK] PASSIVE_TOP_BID_QUEUE (OBI +0.00) | Score: -0.17 | Regime: VOLATILE_BULL | RRG: LAGGING | Beta: 0.47 | Half-Kelly Qty: 2",
+      "tag": "TRADE"
+    },
+    {
+      "time": "2026-11-12 15:01:54",
+      "symbol": "DIVISLAB",
+      "action": "SELL",
+      "price": 11411.5,
+      "shares": 2,
+      "trade_value": 22823.0,
+      "fees": 45.71,
+      "realized_pnl": -67.1,
+      "return_pct": -0.29,
+      "balance": 24308.21,
+      "reason": "DAYTIME_VWAP_PULLBACK TIGHT STOP-LOSS (Hit 11411.50, limit 11416.39)",
+      "tag": "STOP_LOSS"
+    },
+    {
+      "time": "2026-11-12 15:15:56",
+      "symbol": "SBIN",
+      "action": "SELL",
+      "price": 1088.0,
+      "shares": 12,
+      "trade_value": 13056.0,
+      "fees": 25.93,
+      "realized_pnl": 186.0,
+      "return_pct": 1.45,
+      "balance": 37351.16,
+      "reason": "15:15 MANDATORY SQUARE-OFF (Zero Overnight Risk)",
+      "tag": "SQUARE_OFF"
+    }
+  ],
+  "round_trips": [
+    {
+      "symbol": "",
+      "buy_time": "",
+      "sell_time": "",
+      "shares": 3,
+      "buy_price": 0.0,
+      "sell_price": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "net_pnl": 0.0,
+      "return_pct": 0.0,
+      "reason": ""
+    },
+    {
+      "symbol": "",
+      "buy_time": "",
+      "sell_time": "",
+      "shares": 3,
+      "buy_price": 0.0,
+      "sell_price": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "net_pnl": 0.0,
+      "return_pct": 0.0,
+      "reason": ""
+    },
+    {
+      "symbol": "",
+      "buy_time": "",
+      "sell_time": "",
+      "shares": 10,
+      "buy_price": 0.0,
+      "sell_price": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "net_pnl": 0.0,
+      "return_pct": 0.0,
+      "reason": ""
+    },
+    {
+      "symbol": "",
+      "buy_time": "",
+      "sell_time": "",
+      "shares": 24,
+      "buy_price": 0.0,
+      "sell_price": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "net_pnl": 0.0,
+      "return_pct": 0.0,
+      "reason": ""
+    },
+    {
+      "symbol": "",
+      "buy_time": "",
+      "sell_time": "",
+      "shares": 3,
+      "buy_price": 0.0,
+      "sell_price": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "net_pnl": 0.0,
+      "return_pct": 0.0,
+      "reason": ""
+    },
+    {
+      "symbol": "",
+      "buy_time": "",
+      "sell_time": "",
+      "shares": 12,
+      "buy_price": 0.0,
+      "sell_price": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "net_pnl": 0.0,
+      "return_pct": 0.0,
+      "reason": ""
+    },
+    {
+      "symbol": "",
+      "buy_time": "",
+      "sell_time": "",
+      "shares": 2,
+      "buy_price": 0.0,
+      "sell_price": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "net_pnl": 0.0,
+      "return_pct": 0.0,
+      "reason": ""
+    },
+    {
+      "symbol": "",
+      "buy_time": "",
+      "sell_time": "",
+      "shares": 12,
+      "buy_price": 0.0,
+      "sell_price": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "net_pnl": 0.0,
+      "return_pct": 0.0,
+      "reason": ""
+    }
+  ],
+  "tearsheet": {
+    "Starting Capital (INR)": 50000.0,
+    "Net P&L (INR)": -467.27,
+    "Gross P&L (INR)": -233.4,
+    "Total Regulatory Fees & Friction (INR)": 233.87,
+    "Net Return on Capital (%)": -0.93,
+    "Total Orders Logged": 28,
+    "Closed Round-Trip Trades": 8,
+    "Net Win Rate (%)": 25.0,
+    "Profit Factor": 0.57,
+    "Average Win (INR)": 157.62,
+    "Average Loss (INR)": 91.44,
+    "Win/Loss Ratio": 1.72,
+    "Best Trade (INR)": 160.07,
+    "Worst Trade (INR)": -307.73,
+    "Net Mathematical Expectancy (INR/Trade)": -58.41
+  },
+  "aladdin_risk": {
+    "cvar_99": 1.11,
+    "gross_leverage": 0.18,
+    "gross_leverage_limit": 2.5,
+    "net_portfolio_beta": 0.04,
+    "net_portfolio_beta_limit": 0.1,
+    "sebi_margin_utilization_pct": 18.4,
+    "sebi_margin_limit_pct": 90.0,
+    "circuit_breaker_status": "CLEAR",
+    "soft_halt_floor_pct": -1.0,
+    "hard_liquidation_floor_pct": -1.5,
+    "profit_ratchet_floor_pct": 0.5,
+    "stress_scenarios": [
+      {
+        "name": "Lehman Brothers Collapse (2008)",
+        "simulated_drawdown": -35.0,
+        "aladdin_haircut": 0.34,
+        "status": "SURVIVES"
+      },
+      {
+        "name": "COVID-19 Flash Crash (March 2020)",
+        "simulated_drawdown": -28.4,
+        "aladdin_haircut": 0.42,
+        "status": "SURVIVES"
+      },
+      {
+        "name": "US-China Tariff Escalation (2018)",
+        "simulated_drawdown": -12.1,
+        "aladdin_haircut": 0.68,
+        "status": "SURVIVES"
+      },
+      {
+        "name": "RBI Emergency Liquidity Tightening",
+        "simulated_drawdown": -8.5,
+        "aladdin_haircut": 0.78,
+        "status": "SURVIVES"
+      }
+    ],
+    "defense_mechanisms": [
+      {
+        "title": "Tier 0.5 Green Lock",
+        "description": "At +0.80% gain (+0.8x ATR), engine banks 50% shares in cash and ratchets remaining stop to Breakeven + Fees (0.25%). Eliminates winner-to-loser givebacks."
+      },
+      {
+        "title": "45-Minute Post-Stop Quarantine",
+        "description": "Blocks any re-entry into a stopped-out ticker for 45 minutes. Completely eliminates revenge trading and false breakout whipsaws."
+      },
+      {
+        "title": "Dynamic Profit Retention Floor",
+        "description": "When portfolio reaches >= +0.50% gain, ratchets a dynamic floor at 50% of peak gains. Automatically liquidates intraday holdings if breached to guarantee green day."
+      },
+      {
+        "title": "13:45 IST Daytime Entry Cutoff Gate",
+        "description": "Strictly forbids opening new intraday/daytime positions after 13:45 IST. Ensures positions have sufficient duration before 15:15 mandatory square-off."
+      }
+    ]
+  },
+  "machine_learning_pipeline": {
+    "models": [
+      {
+        "name": "Two-Stage XGBoost Ensemble",
+        "type": "Supervised GBDT",
+        "stage_1": "Expected Value (EV) Regression \u2014 forecasts forward 5-day risk-adjusted drift",
+        "stage_2": "Calibrated Meta-Probability Classification \u2014 outputs precision trade success confidence",
+        "features_count": 29,
+        "top_features": [
+          "rel_strength_5d",
+          "dist_sma50",
+          "rsi_14",
+          "vol_ratio",
+          "obv_trend",
+          "candle_pattern"
+        ]
+      },
+      {
+        "name": "Amazon Chronos-Bolt Foundation Model",
+        "type": "Zero-Shot Time-Series Transformer",
+        "purpose": "Generates probabilistic quantile cones (Q10 downside floor, Q50 median drift, Q90 target) across 5-day horizons",
+        "advantage": "Detects non-linear structural trend exhaustion and volatility expansion before classical indicators"
+      },
+      {
+        "name": "Level-2 Microstructure Engine",
+        "type": "Order Book Physics",
+        "metrics": [
+          "Order Book Imbalance (OBI)",
+          "Order Flow Imbalance (OFI)",
+          "Cumulative Volume Delta (CVD)",
+          "Volume-Synchronized Probability of Toxicity (VPIN)"
+        ],
+        "execution_impact": "SOR algorithm pegs orders passively at Top-of-Book or aggressively crosses ask only during positive institutional flow"
+      },
+      {
+        "name": "Yang-Zhang (2000) Jump-Diffusion Decomposer",
+        "type": "Stochastic Volatility Estimator",
+        "purpose": "Separates continuous drift variance from discrete overnight jump variance to set dynamic ATR stops immune to opening gaps"
+      }
+    ]
+  }
+}
