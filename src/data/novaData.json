@@ -6,7 +6,7 @@
     "author": "Arnab Das",
     "portfolio_showcase_mode": "READ-ONLY ADMISSIONS & RECRUITING GALLERY",
     "status": "OPERATIONAL",
-    "last_market_session": "2026-11-13 (Post-Close)",
+    "last_market_session": "2026-11-16 12:42:48",
     "universe": "NIFTY F&O 100 (High-Liquid Deduplicated)",
     "target_monthly_net_alpha": "+3.5% to +5.0% Net",
     "target_annualized_compound": "+51.1% to +79.6% Net",
@@ -1220,8 +1220,27 @@
       },
       {
         "name": "Yang-Zhang (2000) Jump-Diffusion Decomposer",
-        "type": "Stochastic Volatility Estimator",
-        "purpose": "Separates continuous drift variance from discrete overnight jump variance to set dynamic ATR stops immune to opening gaps"
+        "type": "Stochastic Volatility Estimator (Numba JIT Accelerated)",
+        "purpose": "Separates continuous drift variance from discrete overnight jump variance to set dynamic ATR stops immune to opening gaps",
+        "advantage": "Numba @njit acceleration delivers microsecond loop execution at C/C++ machine speed"
+      },
+      {
+        "name": "Institutional Alternative Data Lake",
+        "type": "DuckDB Columnar OLAP + nselib",
+        "purpose": "Aggregates official NSE delivery percentage, daily FII/DII institutional net cash flows, and option chain Put-Call Ratio (PCR)",
+        "advantage": "Distinguishes high-conviction institutional accumulation (delivery > 60%) from retail day-trading churn"
+      },
+      {
+        "name": "Bayesian Strategy Optimizer",
+        "type": "Optuna Hyperparameter Tuning Engine",
+        "purpose": "Automates multi-objective mathematical search across historical trade logs to find optimal EV thresholds, stop distances, and Kelly sizing",
+        "advantage": "Eliminates human guesswork by maximizing Profit Factor while enforcing a strict Max Drawdown cap < 2.0%"
+      },
+      {
+        "name": "Wall Street Performance & Risk Engine",
+        "type": "QuantStats Tearsheet Generator",
+        "purpose": "Computes institutional metrics: Sharpe Ratio, Sortino Ratio, Value-at-Risk (99% VaR), and monthly alpha heatmaps benchmarked against NIFTY 50",
+        "advantage": "SEC Rule 15c3-5 and institutional hedge fund compliance reporting"
       }
     ]
   }
